@@ -1,0 +1,23 @@
+.search {
+  padding: 10px 5px;
+  background-color: #e37066;
+  border-radius: 7px;
+  width: 100%;
+  color: #fff;
+  &::placeholder {
+    color: #ffff;
+  }
+}
+
+.searchArea {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #e37066;
+  border-radius: 7px;
+}
+
+
+.logo {
+    padding: 0 10px;
+}

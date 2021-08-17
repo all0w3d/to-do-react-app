@@ -1,0 +1,42 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 70px;
+  height: 100vh;
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #dc4d3f;
+  align-items: center;
+  color: #fff;
+}
+
+.sidebar {
+  background-color: #ffb9b9;
+  min-width: 200px;
+  padding: 50px;
+  overflow-y: auto;
+}
+
+.body {
+  background-color: #c1c1ff;
+  padding: 50px;
+  overflow-y: auto;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 7px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  box-shadow: 0;
+  background-color: #dbdbdb;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  outline: none;
+  border-radius: 10px;
+}
