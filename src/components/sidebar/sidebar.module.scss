@@ -1,5 +1,35 @@
 .list {
-    li {
-        margin: 20px 0;
+  li {
+    margin: 20px 0;
+
+    cursor: pointer;
+    h2 {
+      display: flex;
+      align-items: center;
     }
+    svg {
+      margin-right: 10px;
+    }
+
+    p {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.rotated {
+  svg {
+    transition: all 0.2s ease;
+    transform: rotate(180deg);
+  }
+
+  font-weight: bold;
+}
+
+.plus {
+  fill: #dc4d3f;
+  width: 20px;
+  height: 20px;
 }

@@ -3,6 +3,7 @@ import "./default.scss";
 import styles from "./app.module.scss";
 import Header from "./components/header/header";
 import Sidebar from "./components/sidebar/sidebar";
+import Body from "./components/body/body";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
         <div className={styles.sidebar}>
           <Sidebar />
         </div>
-        <div className={styles.body}>Body</div>
+        <div className={styles.body}>
+          <Body />
+        </div>
       </div>
     </>
   );
